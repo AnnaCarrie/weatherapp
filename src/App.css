@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center;
+  height: 100vh;
+  padding-left: 20px;
+}
+
+.weather-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrer le contenu */
+}
+
+.coordinates-container {
+  margin-right: auto;
+  margin-left: auto; /* Centrer horizontalement */
+  text-align: left; /* Réinitialiser le centrage pour le texte */
+}
